@@ -1,6 +1,8 @@
-# telosb-pingpong
+# TelosB-PingPongApp
 
-This is an implementation of a ping pong application for the TelosB mote.
+This is an implementation of a ping pong application written in nesC for the TelosB mote, running on TinyOS.
+
+
 The application runs and stops by pressing the user button located on the mote.
 Using two motes, the application starts by broadcasting a packet from the mote
 which got it's button pressed first. Upon receiving the packet, the second mote
